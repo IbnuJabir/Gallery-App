@@ -8,12 +8,12 @@ To install and run this app locally, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone <repository_url>
+   git clone https://github.com/IbnuJabir/Gallery-App
    ```
 
 2. Navigate to the project directory:
    ```
-   cd react-gallery-app
+   cd Gallery-App
    ```
 
 3. Install dependencies:
