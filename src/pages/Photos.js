@@ -31,10 +31,10 @@ exit={{ opacity: 0, transition: {duration: 0.1 }  }}
           <main className="main-photos">
             {Object.entries(gallery).map(([category, images], index) => (
               <div className="single-photos" key={index}>
-                <p>{category}</p>
+                <p onClick={setCategory(category)}>{category}</p>
                 {images.map((photo, photoIndex) => (
                   <Link to={`/ImageDetail/${photo.id}`} key={photoIndex}>
-                <img src={photo.img} alt="" onClick={() => imageDetail(photoIndex, category)} />
+                <img src={photo.img} alt="" onClick={() => imageDetail(photo.id, category)} />
                 </Link>
                 ))}
               </div>

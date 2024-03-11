@@ -1,0 +1,56 @@
+{
+  "gallery": {
+    "Telegram": [
+      {
+        "id": 1,
+        "img": "../images/hadith1.jpg"
+      },
+      {
+        "id": 2,
+        "img": "../images/hadith2.jpg"
+      },
+      {
+        "id": 3,
+        "img": "../images/hadith3.jpg"
+      },
+      {
+        "id": 4,
+        "img": "../images/hadith4.jpg"
+      },
+      {
+        "id": 5,
+        "img": "../images/hadith5.jpg"
+      },
+      {
+        "id": 6,
+        "img": "../images/hadith6.jpg"
+      }
+    ],
+    "Screenshot": [
+      {
+        "id": 11,
+        "img": "../images/Screen1.png"
+      },
+      {
+        "id": 12,
+        "img": "../images/Screen2.png"
+      },
+      {
+        "id": 13,
+        "img": "../images/Screen3.png"
+      },
+      {
+        "id": 14,
+        "img": "../images/Screen4.png"
+      },
+      {
+        "id": 15,
+        "img": "../images/Screen5.png"
+      },
+      {
+        "id": 16,
+        "img": "../images/Screen6.png"
+      }
+    ]
+  }
+}

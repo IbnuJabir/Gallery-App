@@ -4,11 +4,9 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import InsideAlbum from './InsideAlbum';
 
-export default function Albums({ gallery, showAlbum, detail, setDetail }) {
-  const [cat, setCat] = useState("");
-// const [category, setCategory] = useState("");
+export default function Albums({ gallery, showAlbum, detail, setDetail, hideFooter, setPhotoIndex, setCategory, notNav }) {
+    
   const albumSelector = (category) => {
-    setCat(category);
     setDetail(false);
   };
 
@@ -18,8 +16,12 @@ export default function Albums({ gallery, showAlbum, detail, setDetail }) {
         <Route
           path="/:category"
           element={<InsideAlbum 
-          gallery={gallery} 
-          cat={cat} />}
+          gallery={gallery}
+          hideFooter={hideFooter}
+          setPhotoIndex={setPhotoIndex}
+          setCategory={setCategory}
+          notNav={notNav} 
+          setDetail={setDetail} />}
         />
       </Routes>
       {detail && (
@@ -30,21 +32,24 @@ export default function Albums({ gallery, showAlbum, detail, setDetail }) {
           exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}
         >
           {Object.entries(gallery).map(([category, images], index) => {
-            const firstImage = images[0];
-            return (
-              <Link
-                to={`/Albums/${category}`}
-                key={index}
-                onClick={() => albumSelector(category)}
-              >
-                <figure className="single-album">
-                  <img src={firstImage.img} alt="" />
-                  <figcaption>{category}</figcaption>
-                  <h3>{cat}</h3>
-                </figure>
-              </Link>
-            );
-          })}
+  if (images.length > 0) {
+    const firstImage = images[0];
+    return (
+      <Link
+        to={`/Albums/${category}`}
+        key={index}
+        onClick={() => albumSelector(category)}
+      >
+        <figure className="single-album">
+          <img src={firstImage.img} alt="" />
+          <figcaption>{category}</figcaption>
+        </figure>
+      </Link>
+    );
+  }
+  return null; // Skip rendering if there are no images for the category
+})}
+
         </motion.main>
       )}
     </>
