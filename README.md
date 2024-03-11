@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# React Gallery App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React gallery app developed by [Ibnu Jabir](https://github.com/IbnuJabir) using various packages to create an interactive gallery experience.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To install and run this app locally, follow these steps:
 
-### `npm start`
+1. Clone the repository:
+   ```
+   git clone <repository_url>
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory:
+   ```
+   cd react-gallery-app
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm test`
+4. Run the app:
+   ```
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Packages Installed
 
-### `npm run build`
+This app utilizes the following packages:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [framer-motion](https://www.npmjs.com/package/framer-motion) - Used for animations and motion effects.
+- [swiper](https://swiperjs.com/react) - Integrated for carousel and slider functionalities.
+- [react-icons](https://www.npmjs.com/package/react-icons) - Provides a vast collection of icons for use in the app.
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Used for routing within the React app.
+- [@mui/material](https://mui.com/) - Provides components for building user interfaces.
+- [uuid](https://www.npmjs.com/package/uuid) - Utilized for generating unique identifiers.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Beside nested Components, The gallery consists of three main components:
 
-### `npm run eject`
+1. **Albums**: Displays various albums or categories of images.
+2. **Photos**: Shows all photos in the selected album or category.
+3. **Favs**: Displays a collection of favorite images.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Nested routing for navigating between albums and individual photos.
+- Conditional rendering to display different components based on user interaction.
+- Utilizes local storage to store image data, including paths.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This React gallery app was created by [@IbnuJabir](https://github.com/IbnuJabir).
