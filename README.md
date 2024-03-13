@@ -55,6 +55,9 @@ Beside nested Components, The gallery consists of three main components:
 
 This React gallery app was created by [@IbnuJabir](https://github.com/IbnuJabir).
 
+
+## App Pics
+
 ![Albums](https://github.com/IbnuJabir/Gallery-App/assets/133161679/c5289f35-5618-47c6-90e5-3d6dfda267b6)
 
 ![Inside Album](https://github.com/IbnuJabir/Gallery-App/assets/133161679/bb9e54f2-f514-4282-8178-1d096541105c)
