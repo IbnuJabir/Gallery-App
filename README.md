@@ -55,4 +55,17 @@ Beside nested Components, The gallery consists of three main components:
 
 This React gallery app was created by [@IbnuJabir](https://github.com/IbnuJabir).
 
-![Image](https://github.com/IbnuJabir/Gallery-App/assets/133161679/b11d69ee-7503-43f7-860f-24cef2e8c65f)
+![Albums](https://github.com/IbnuJabir/Gallery-App/assets/133161679/b11d69ee-7503-43f7-860f-24cef2e8c65f)
+
+![Inside Albums](https://github.com/IbnuJabir/Gallery-App/assets/133161679/c5289f35-5618-47c6-90e5-3d6dfda267b6)
+
+![All Photos](https://github.com/IbnuJabir/Gallery-App/assets/133161679/a0652d96-18b7-4ffe-ac46-a8f505d91e44)
+
+![Single Image with white background](https://github.com/IbnuJabir/Gallery-App/assets/133161679/90c66167-46b5-418c-8540-9f2e5462024f)
+
+![Single Image with black background](https://github.com/IbnuJabir/Gallery-App/assets/133161679/5649ace4-8e96-408f-9443-0a0eeb2d7436)
+
+![Additional features](https://github.com/IbnuJabir/Gallery-App/assets/133161679/49f0d821-d194-499a-bbaa-f30f0508bac3)
+
+![Copy and move Images](https://github.com/IbnuJabir/Gallery-App/assets/133161679/6fccf36f-9bc2-4a3b-9ecd-cee31d8ac4d2)
+
